@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.0.1)
+  - CrittercismSDK (5.5.5)
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - PubNub (4.5.5):
+    - PubNub/Core (= 4.5.5)
+  - PubNub/Core (4.5.5)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
+  - CrittercismSDK
+  - GoogleMaps
+  - PubNub (~> 4.1)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: a502949e2d64ac8e15cdbf7fa5353c39bc7cd10e
+    :git: https://github.com/Alamofire/Alamofire.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  CrittercismSDK: 70f261913b23c5018f7e695d8abe287ee7061ad2
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  PubNub: 519594dfe84662686818591179470ff87a30a224
+
+PODFILE CHECKSUM: 7e7d104e80b524d2a7d29d3c8835c8b68590a8e6
+
+COCOAPODS: 1.1.1
